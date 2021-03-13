@@ -1,0 +1,40 @@
+.profiles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #141414;
+}
+.profiles__title {
+    color: #fff;
+    font-size: 3.5vw;
+    transition: opacity .4s ease-out;
+    font: 'Roboto';
+}
+.profiles__items {
+    display: flex;
+    margin: 2em 0;
+}
+
+.profiles__button {
+   margin: 2em 0 1em 0;
+   font-size: 1.3vw;
+   text-align: center;
+   color: #fff;
+   font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.profiles__button a {
+    border: 1px solid grey;
+    color: grey;
+    text-transform: uppercase;
+    padding: .5em 1.5em;
+    letter-spacing: 2px;
+    font-size: .9em;
+    text-decoration: none;
+}
+.profiles__button a:hover {
+    color: #fff;
+    border: 1px solid #fff;
+}
